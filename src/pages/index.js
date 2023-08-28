@@ -1,0 +1,12 @@
+export { default as Home } from './Home';
+export { default as About } from './About';
+export { default as Product } from './Product';
+export { default as Contact } from './Contact';
+export { default as Cart } from './Cart';
+export { default as  Product_details} from './Product_details';
+export { default as  Checkout} from './Checkout';
+export { default as  Products} from './Products';
+export { default as MEP} from './MEP';
+export { default as  Food} from './Food';
+export { default as  Textile} from './Textile';
+export { default as  Cosmetic} from './Cosmetic';
