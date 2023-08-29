@@ -66,7 +66,7 @@ const Navbar = () => {
                 <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
 
                     <a href="/" className="logo d-flex align-items-center">
-                        <span>FlexStart</span>
+                        <span>Noora;</span>
                     </a>
 
                     <nav id="navbar" className="navbar">
