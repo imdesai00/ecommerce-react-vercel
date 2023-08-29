@@ -50,25 +50,52 @@ const Home = () => {
 
         </div>
       </section>
-      <div className="bg-white py-24 sm:py-32">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
-            <div className="mx-auto flex max-w-xs flex-col gap-y-4">
-              <dt className="text-base leading-7 text-gray-600">Products</dt>
-              <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">50+</dd>
+      <section id="counts" className="counts">
+        <div className="container" data-aos="fade-up">
+
+          <div className="row gy-4">
+
+            <div className="col-lg-3 col-md-6">
+              <div className="count-box">
+                <div>
+                  <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter">50</span>
+                  <p>Happy Clients</p>
+                </div>
+              </div>
             </div>
-            <div className="mx-auto flex max-w-xs flex-col gap-y-4">
-              <dt className="text-base leading-7 text-gray-600">Company Vehicles</dt>
-              <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">40</dd>
+
+            <div className="col-lg-3 col-md-6">
+              <div className="count-box">
+                <div>
+                  <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" className="purecounter">105</span>
+                  <p>Projects</p>
+                </div>
+              </div>
             </div>
-            <div className="mx-auto flex max-w-xs flex-col gap-y-4">
-              <dt className="text-base leading-7 text-gray-600">Empolye world wides</dt>
-              <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">74</dd>
+
+            <div className="col-lg-3 col-md-6">
+              <div className="count-box">
+                <div>
+                  <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" className="purecounter">12</span>
+                  <p>Hours Of Support</p>
+                </div>
+              </div>
             </div>
-          </dl>
+
+            <div className="col-lg-3 col-md-6">
+              <div className="count-box">
+                <div>
+                  <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" className="purecounter">76</span>
+                  <p>Hard Workers</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
         </div>
-      </div>
-      {/* <section id="testimonials" className="testimonials">
+      </section>
+      <section id="testimonials" className="testimonials">
 
         <div className="container" data-aos="fade-up">
 
@@ -166,39 +193,7 @@ const Home = () => {
 
         </div>
 
-      </section> */}
-      <div className="container">
-        <div className="row">
-          <div className="col-md-8 col-center m-auto">
-            {/* <h2>Testimonials</h2> */}
-            <div id="myCarousel" className="carousel slide" data-ride="carousel">
-              <div className="carousel-inner">
-                <div className="item carousel-item active">
-                  <div className="img-box"><img src="https://i.ibb.co/d5DY64w/img1.jpg" alt="" /></div>
-                  <p className="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
-                  <p className="overview"><b>Jennifer Smith</b>, Office Worker</p>
-                </div>
-                <div className="item carousel-item">
-                  <div className="img-box"><img src="https://i.ibb.co/5FF1vqz/img2.jpg" alt="" /></div>
-                  <p className="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
-                  <p className="overview"><b>Dauglas McNun</b>, Financial Advisor</p>
-                </div>
-                <div className="item carousel-item">
-                  <div className="img-box"><img src="https://i.ibb.co/Trv7hDv/img3.jpg" alt="" /></div>
-                  <p className="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
-                  <p className="overview"><b>Hellen Wright</b>, Athelete</p>
-                </div>
-              </div>
-              <a className="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
-                <i className="fa fa-angle-left"></i>
-              </a>
-              <a className="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
-                <i className="fa fa-angle-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+      </section>
     </>
   )
 }
