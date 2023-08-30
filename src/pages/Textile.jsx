@@ -15,7 +15,8 @@ const Textile = () => {
         <div className="container">
           <header className="section-header">
             <h2>Products</h2>
-            <p>Textile Products</p>
+            <p className='mb-5'>Textile Products</p>
+                        <span>Textiles have an assortment of uses, the most common of which are for clothing and for containers such as bags and baskets. In the household, textiles are used in carpeting, upholstered furnishings, window shades, towels, coverings for tables, beds, and other flat surfaces, and in art.</span>
           </header>
           <div className="row">
             <div className="col-lg-6">
@@ -25,28 +26,28 @@ const Textile = () => {
             <div className="col-lg-6 mt-5 mt-lg-0 d-flex">
               <div className="row align-self-center gy-4">
                 <div className="col-md-6" data-aos="zoom-out" data-aos-delay="200">
-                  <h3>Cotton</h3>
+                  <h3 className='a'>Cotton</h3>
                 </div>
                 <div className="col-md-6" data-aos="zoom-out" data-aos-delay="300">
-                  <h3>Polyester</h3>
+                  <h3 className='a'>Polyester</h3>
                 </div>
                 <div className="col-md-6" data-aos="zoom-out" data-aos-delay="400">
-                  <h3>Silk</h3>
+                  <h3 className='a'>Silk</h3>
                 </div>
                 <div className="col-md-6" data-aos="zoom-out" data-aos-delay="500">
-                  <h3>Wool</h3>
+                  <h3 className='a'>Wool</h3>
                 </div>
                 <div className="col-md-6" data-aos="zoom-out" data-aos-delay="600">
-                  <h3>Jute</h3>
+                  <h3 className='a'>Jute</h3>
                 </div>
                 <div className="col-md-6" data-aos="zoom-out" data-aos-delay="700">
-                  <h3>Linen</h3>
+                  <h3 className='a'>Linen</h3>
                 </div>
                 <div className="col-md-6" data-aos="zoom-out" data-aos-delay="600">
-                  <h3>Nylon</h3>
+                  <h3 className='a'>Nylon</h3>
                 </div>
                 <div className="col-md-6" data-aos="zoom-out" data-aos-delay="700">
-                  <h3>Chiffon</h3>
+                  <h3 className='a'>Chiffon</h3>
                 </div>
               </div>
             </div>
@@ -56,9 +57,8 @@ const Textile = () => {
       <section id="clients" className="clients">
         <div className="container" data-aos="fade-up">
         <div class="section-header">
-                        <h2>Products</h2>
-                        <p className='mb-5'>Textile Products</p>
-                        <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque vitae voluptates dolore nulla porro tempore soluta odio ipsa ea reprehenderit harum, similique accusamus, excepturi totam iusto velit quas nam incidunt? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi expedita atque facilis ab magni quam? Tempore qui animi maiores numquam pariatur repudiandae, sapiente, consequuntur impedit aspernatur sit dignissimos, assumenda incidunt.</span>
+                        <h2>Our Client</h2>
+      
                     </div>
 
           <div className="clients-slider swiper">

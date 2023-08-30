@@ -15,7 +15,7 @@ const MEP = () => {
                     <div class="section-header">
                         <h2>Products</h2>
                         <p className='mb-5'>MEP Products</p>
-                        <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque vitae voluptates dolore nulla porro tempore soluta odio ipsa ea reprehenderit harum, similique accusamus, excepturi totam iusto velit quas nam incidunt? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi expedita atque facilis ab magni quam? Tempore qui animi maiores numquam pariatur repudiandae, sapiente, consequuntur impedit aspernatur sit dignissimos, assumenda incidunt.</span>
+                        <span>Mechanical, electrical and plumbing (MEP) refers to the installation of services which provide a comfortable space for the building occupants. In residential and commercial buildings, these elements are often designed by a specialized MEP engineering firms. The part of Mechanical in the overall MEP system is almost 70% of the total work. MEP's design is important for planning, decision-making, accurate documentation, performance- and cost-estimation, construction, and operating/maintaining the resulting facilities</span>
                     </div>
                     <div className="row">
                         <div className="col-lg-6">
@@ -25,27 +25,27 @@ const MEP = () => {
                             <div className="row align-self-center gy-4">
 
                                 <div className="col-md-6" data-aos="zoom-out" data-aos-delay="200">
-                                    <h3>Stirrups.</h3>
+                                    <h3 className='a'>Stirrups.</h3>
                                 </div>
 
                                 <div className="col-md-6" data-aos="zoom-out" data-aos-delay="300">
-                                    <h3>Cut+Shaping.</h3>
+                                    <h3 className='a'>Cut+Shaping.</h3>
                                 </div>
 
                                 <div className="col-md-6" data-aos="zoom-out" data-aos-delay="400">
-                                    <h3>Straightening.</h3>
+                                    <h3 className='a'>Straightening.</h3>
                                 </div>
 
                                 <div className="col-md-6" data-aos="zoom-out" data-aos-delay="500">
-                                    <h3>Lattice Girder.</h3>
+                                    <h3 className='a'>Lattice Girder.</h3>
                                 </div>
 
                                 <div className="col-md-6" data-aos="zoom-out" data-aos-delay="600">
-                                    <h3>Pile/Cage.</h3>
+                                    <h3 className='a'>Pile/Cage.</h3>
                                 </div>
 
                                 <div className="col-md-6" data-aos="zoom-out" data-aos-delay="700">
-                                    <h3>Bend/Shaping.</h3>
+                                    <h3 className='a'>Bend/Shaping.</h3>
                                 </div>
 
                             </div>

@@ -16,15 +16,15 @@ const Food = () => {
         <div class="section-header">
             <h2>Products</h2>
             <p className='mb-5'>Food Products</p>
-            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque vitae voluptates dolore nulla porro tempore soluta odio ipsa ea reprehenderit harum, similique accusamus, excepturi totam iusto velit quas nam incidunt? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi expedita atque facilis ab magni quam? Tempore qui animi maiores numquam pariatur repudiandae, sapiente, consequuntur impedit aspernatur sit dignissimos, assumenda incidunt.</span>
+            <span>A food product is a food that has been prepared and packaged for sale on a market. This includes basic commodities such as vegetables, packaged foods, niche foods and artisanal foods. Food packaging is a packaging system specifically designed for food and represents one of the most important aspects among the processes involved in the food industry, as it provides protection from chemical, biological and physical alterations. The main goal of food packaging is to provide a practical means of protecting and delivering food goods at a reasonable cost while meeting the needs and expectations of both consumers and industries.</span>
         </div>
           <div className="row feture-tabs">
             <div className="col-lg-6">
               <div className="tab-content">
                 <div className="tab-pane fade show active" id="tab1">
-                  <p>Rise & Floor || Sugar || Pasta || Beans || Nutes</p><br></br>
-                  <p>Biscuite || Tea || Canned Product || Milk Products</p><br></br>
-                  <p>Juices || Baby Products || Backing Products </p><br></br>
+                  <p className='a'>Rise & Floor || Sugar || Pasta || Beans || Nutes</p><br></br>
+                  <p className='a'>Biscuite || Tea || Canned Product || Milk Products</p><br></br>
+                  <p className='a'>Juices || Baby Products || Backing Products </p><br></br>
                 </div>
               </div>
             </div>

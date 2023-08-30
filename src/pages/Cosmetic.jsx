@@ -16,9 +16,9 @@ const Cosmetic = () => {
       <section id="features" className="features">
         <div className="container">
         <div class="section-header">
-                        <h2>Products</h2>
+                        <h2 className='a'>Products</h2>
                         <p className='mb-5'>Cosmetic Products</p>
-                        <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque vitae voluptates dolore nulla porro tempore soluta odio ipsa ea reprehenderit harum, similique accusamus, excepturi totam iusto velit quas nam incidunt? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi expedita atque facilis ab magni quam? Tempore qui animi maiores numquam pariatur repudiandae, sapiente, consequuntur impedit aspernatur sit dignissimos, assumenda incidunt.</span>
+                        <span>Cosmetics are constituted mixtures of chemical compounds derived from either natural sources, or synthetically created ones. Cosmetics have various purposes. Those designed for personal care and skin care can be used to cleanse or protect the body or skin.<br></br><br></br>A perfume is a liquid mixture used to emit a pleasant odour. It is formed from fragrant essential oils derived from plants and spices or synthetic aromatic compounds. Cosmetic fragrances applied to a person's body to emit a pleasant smell include perfume, cologne, and aftershave</span>
                     </div>
           <div className="row">
             <div className="col-lg-6">
@@ -27,22 +27,22 @@ const Cosmetic = () => {
             <div className="col-lg-6 mt-5 mt-lg-0 d-flex">
               <div className="row align-self-center gy-4">
                 <div className="col-md-6" data-aos="zoom-out" data-aos-delay="200">
-                  <h3>Huda Beauty.</h3>
+                  <h3 className='a'>Huda Beauty.</h3>
                 </div>
                 <div className="col-md-6" data-aos="zoom-out" data-aos-delay="300">
-                  <h3>Anastasia Beverly Hills.</h3>
+                  <h3 className='a'>Anastasia Beverly Hills.</h3>
                 </div>
                 <div className="col-md-6" data-aos="zoom-out" data-aos-delay="400">
-                  <h3>Shirley Conlon Organics.</h3>
+                  <h3 className='a'>Shirley Conlon Organics.</h3>
                 </div>
                 <div className="col-md-6" data-aos="zoom-out" data-aos-delay="500">
-                  <h3>The Estée Lauder Companies Inc.</h3>
+                  <h3 className='a'>The Estée Lauder Companies Inc.</h3>
                 </div>
                 <div className="col-md-6" data-aos="zoom-out" data-aos-delay="600">
-                  <h3>Shiseido Company.</h3>
+                  <h3 className='a'>Shiseido Company.</h3>
                 </div>
                 <div className="col-md-6" data-aos="zoom-out" data-aos-delay="700">
-                  <h3>Herbal Essentials.</h3>
+                  <h3 className='a'>Herbal Essentials.</h3>
                 </div>
               </div>
             </div>
@@ -53,9 +53,9 @@ const Cosmetic = () => {
               <div className="col-lg-6">
                 <div className="tab-content">
                   <div className="tab-pane fade show active">
-                    <p>Gucci || Clinique || Estée Lauder || Truefitt & Hill</p><br></br>
-                    <p>L Occitane || Davidoff || BVLGARI || Giorgio Armani</p><br></br>
-                    <p>Hugo Boss || verche || Shumukh || MONT BLANC  </p><br></br>
+                    <p className='a'>Gucci || Clinique || Estée Lauder || Truefitt & Hill</p><br></br>
+                    <p className='a'>L Occitane || Davidoff || BVLGARI || Giorgio Armani</p><br></br>
+                    <p className='a'>Hugo Boss || verche || Shumukh || MONT BLANC  </p><br></br>
                   </div>
                 </div>
 
@@ -80,37 +80,37 @@ const Cosmetic = () => {
 
                   <div className="col-md-6" data-aos="fade-up">
                     <div>
-                      <h2>Corporis voluptates sit</h2>
+                      <h2 className='a'>Corporis voluptates sit</h2>
                     </div>
                   </div>
 
                   <div className="col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div>
-                      <h2>Ullamco laboris nisi</h2>
+                      <h2 className='a'>Ullamco laboris nisi</h2>
                     </div>
                   </div>
 
                   <div className="col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <div>
-                      <h2>Labore consequatur</h2>
+                      <h2 className='a'>Labore consequatur</h2>
                     </div>
                   </div>
 
                   <div className="col-md-6" data-aos="fade-up" data-aos-delay="300">
                     <div>
-                      <h2>Beatae veritatis</h2>
+                      <h2 className='a'>Beatae veritatis</h2>
                     </div>
                   </div>
 
                   <div className="col-md-6" data-aos="fade-up" data-aos-delay="400">
                     <div>
-                      <h2>Molestiae dolor</h2>
+                      <h2 className='a'>Molestiae dolor</h2>
                     </div>
                   </div>
 
                   <div className="col-md-6" data-aos="fade-up" data-aos-delay="500">
                     <div>
-                      <h2>Explicabo consectetur</h2>
+                      <h2 className='a'>Explicabo consectetur</h2>
                     </div>
                   </div>
 
@@ -127,7 +127,7 @@ const Cosmetic = () => {
       <section id="clients" className="clients">
         <div className="container" data-aos="fade-up">
           <header className="section-header">
-            <h2>Our Clients</h2>
+            <h2 className='a'>Our Clients</h2>
           </header>
 
           <div className="clients-slider swiper">

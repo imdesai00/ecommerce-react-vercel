@@ -11,7 +11,6 @@ const About = () => {
             <div className="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
               <div className="content">
                 <h3>Who We Are....?</h3>
-                {/* <h2>Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est repellat corrupti reprehenderit.</h2> */}
                 <p>
                 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Welcome to <b>Nooral Retail Business</b>, your premier destination for high-quality products and exceptional shopping 
                 experiences. As a leading player in the retail industry, we pride ourselves on offering a diverse range of top-notch 
@@ -43,7 +42,6 @@ const About = () => {
 
           <header className="section-header">
             <h2>Our Values</h2>
-            {/* <p>Odit est perspiciatis laborum et dicta</p> */}
           </header>
 
           <div className="row">
