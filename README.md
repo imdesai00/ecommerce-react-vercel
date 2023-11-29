@@ -8,8 +8,6 @@ just copy git repositry and view tamplate.
 2) npm i
 3) npm start
 
-## Check It Out
-https://react-vercel-snowy.vercel.app/
 
 ## System Picture
 ![Screenshot (18)](https://github.com/imdesai00/react-vercel/assets/115632510/2809476c-51ee-481f-b8c9-2fd3974a3252)
